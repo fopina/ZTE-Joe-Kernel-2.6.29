@@ -337,6 +337,10 @@ static void synaptics_ts_work_func(struct work_struct *work)
 	#ifdef CONFIG_MACH_JOE//ZTE_TS_ZT_20100520_001
 			y = 2787 - y;
 			y2 = 2787 - y2;
+			if (buf[12] == 8) {
+                                buf[12] = 0;
+                                finger = 1;
+                        }
 	#endif		
 	
 			pressure2 = buf[11]; 
