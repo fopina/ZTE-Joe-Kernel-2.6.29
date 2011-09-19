@@ -278,7 +278,6 @@ int msm_camera_dev_start(struct platform_device *dev,
                                  void (*i2c_dev_probe_off)(void),
                                  int (*sensor_dev_probe)(const struct msm_camera_sensor_info *));
 #endif
-#endif
 
 enum msm_camio_clk_type {
 	CAMIO_VFE_MDC_CLK,

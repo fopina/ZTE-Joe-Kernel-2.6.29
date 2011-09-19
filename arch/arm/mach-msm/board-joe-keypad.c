@@ -16,7 +16,7 @@ static unsigned int keypad_col_gpios[] = {41, 40, 37, 36};
 static const unsigned short keypad_keymap_joe[ARRAY_SIZE(keypad_col_gpios)
                                               * ARRAY_SIZE(keypad_row_gpios)] = {
 	[KEYMAP_INDEX(0, 0)] = KEY_VOLUMEDOWN,     
-	[KEYMAP_INDEX(0, 1)] = KEY_CAMERA,    /
+	[KEYMAP_INDEX(0, 1)] = KEY_CAMERA,
 	[KEYMAP_INDEX(0, 2)] = KEY_VOLUMEUP,    
 	[KEYMAP_INDEX(0, 3)] = KEY_OK,      
 	[KEYMAP_INDEX(1, 0)] = KEY_RESERVED, 

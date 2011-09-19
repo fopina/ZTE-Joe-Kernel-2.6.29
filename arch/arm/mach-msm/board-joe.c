@@ -59,7 +59,7 @@
 #include <linux/msm_kgsl.h>
 #endif
 
-#include <msm_usb_config.h> 
+#include "msm_usb_config.h"
 
 #include <linux/lis302dl.h>
 #ifdef CONFIG_ARCH_MSM7X25
